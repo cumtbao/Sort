@@ -13,5 +13,5 @@ public interface ThreadPool<Job extends Runnable> {
 
     void removeWorker(int num);
 
-    void getJobSize();
+    int getJobSize();
 }
